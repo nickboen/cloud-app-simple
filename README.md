@@ -1,4 +1,4 @@
 cloud-app-simple
 ================
 
-sfd
+Simplest form of POC app

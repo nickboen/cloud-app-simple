@@ -1,0 +1,18 @@
+package com.nick.controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CentralConfigController {
+
+	@Value("${first.name:'No name'}")
+	private String name;
+
+	@RequestMapping("/config")
+	public String home() {
+		return "Hello " + name;
+	}
+
+}

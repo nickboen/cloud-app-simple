@@ -1,0 +1,45 @@
+*.class
+
+*.log
+
+#Project Files
+.classpath
+.project
+.settings/
+
+# Package Files 
+
+*.jar
+
+*.war
+
+*.ear
+
+
+
+# maven 
+artifacts
+clientartifacts/
+target/
+
+pom.xml.versionsBackup
+
+# gradle
+.gradle/
+build/
+
+# soapui
+QA_ManagedInventoryService-soapui-project.xml.*
+
+
+# activemq
+activemq-data/
+
+#structure101 plugin
+s101plugin*
+/target
+
+#Intellij IDEA
+*.eml
+/target/
+/bin
